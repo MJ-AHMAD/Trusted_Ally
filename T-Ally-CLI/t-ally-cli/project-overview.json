@@ -1,0 +1,239 @@
+{
+  "project": {
+    "name": "T-ALLY CLI",
+    "tagline": "Your comprehensive command-line reference and toolset",
+    "description": "A complete guide to various command-line interfaces with practical examples and tools for PowerShell, Command Prompt, Git Bash, Node.js and more.",
+    "version": "1.0.0",
+    "lastUpdated": "2023-04-21"
+  },
+  "mission": {
+    "statement": "Providing a complete guide to various command-line interfaces with practical examples and tools",
+    "vision": "To be the go-to resource for all command-line needs, whether you're a beginner learning the basics or an expert looking for advanced techniques.",
+    "goals": [
+      "Simplify command-line learning for beginners",
+      "Provide advanced techniques for experienced users",
+      "Create a comprehensive reference for multiple CLI environments",
+      "Enhance productivity through specialized tools",
+      "Ensure security and compliance in command-line operations"
+    ]
+  },
+  "keyFeatures": [
+    "Multi-environment support (PowerShell, CMD, Git Bash, Node.js)",
+    "Organized command structure with practical examples",
+    "Advanced search functionality across all environments",
+    "Detailed documentation with syntax highlighting",
+    "Responsive design for desktop and mobile devices"
+  ],
+  "targetAudience": [
+    {
+      "group": "Developers",
+      "description": "Seeking to improve command-line efficiency"
+    },
+    {
+      "group": "System Administrators",
+      "description": "Managing servers and networks"
+    },
+    {
+      "group": "DevOps Professionals",
+      "description": "Automating workflows"
+    },
+    {
+      "group": "Students",
+      "description": "Learning command-line basics"
+    },
+    {
+      "group": "IT Professionals",
+      "description": "Seeking reference materials"
+    }
+  ],
+  "cliEnvironments": [
+    {
+      "name": "PowerShell",
+      "description": "Modern task automation and configuration management framework",
+      "commandCount": 500,
+      "icon": "Command"
+    },
+    {
+      "name": "Command Prompt",
+      "description": "Traditional Windows command-line interpreter",
+      "commandCount": 300,
+      "icon": "Terminal"
+    },
+    {
+      "name": "Git Bash",
+      "description": "UNIX-like command line for Git version control",
+      "commandCount": 250,
+      "icon": "GitBranch"
+    },
+    {
+      "name": "Node.js",
+      "description": "JavaScript runtime environment commands and tools",
+      "commandCount": 200,
+      "icon": "Server"
+    }
+  ],
+  "productCategories": [
+    {
+      "name": "Command Line Tools",
+      "description": "Tools to enhance command-line experience",
+      "products": [
+        {
+          "id": "cli-master",
+          "name": "CLI Master",
+          "description": "Advanced command line interface with intelligent suggestions and auto-completion",
+          "pricingModel": "Freemium",
+          "price": "From $9.99/month",
+          "features": [
+            "Intelligent command suggestions",
+            "Cross-platform compatibility",
+            "Custom aliases and shortcuts"
+          ],
+          "popular": false
+        },
+        {
+          "id": "terminal-pro",
+          "name": "Terminal Pro",
+          "description": "Professional terminal emulator with advanced features for developers",
+          "pricingModel": "Subscription",
+          "price": "From $12.99/month",
+          "features": ["Multiple tabs and split views", "Customizable themes and fonts", "SSH and FTP integration"],
+          "popular": true
+        },
+        {
+          "id": "command-explorer",
+          "name": "Command Explorer",
+          "description": "Interactive command explorer with detailed documentation and examples",
+          "pricingModel": "Free",
+          "price": "Free",
+          "features": ["Comprehensive command database", "Interactive examples", "Command syntax highlighting"],
+          "popular": false
+        }
+      ]
+    },
+    {
+      "name": "System Administration",
+      "description": "Tools for system and network management",
+      "products": [
+        {
+          "id": "system-monitor",
+          "name": "System Monitor",
+          "description": "Comprehensive system monitoring and performance analysis tool",
+          "pricingModel": "Freemium",
+          "price": "From $19.99/month",
+          "features": ["Real-time resource monitoring", "Performance analytics", "Alert notifications"],
+          "popular": false
+        },
+        {
+          "id": "network-analyzer",
+          "name": "Network Analyzer",
+          "description": "Advanced network analysis and troubleshooting toolkit",
+          "pricingModel": "Subscription",
+          "price": "From $24.99/month",
+          "features": ["Network traffic analysis", "Bandwidth monitoring", "Protocol inspection"],
+          "popular": true
+        }
+      ]
+    },
+    {
+      "name": "Development Tools",
+      "description": "Tools for software development",
+      "products": [
+        {
+          "id": "code-commander",
+          "name": "Code Commander",
+          "description": "Command-line code generation and scaffolding tool",
+          "pricingModel": "Free",
+          "price": "Free",
+          "features": ["Project templates", "Code scaffolding", "Framework integration"],
+          "popular": false
+        },
+        {
+          "id": "git-wizard",
+          "name": "Git Wizard",
+          "description": "Advanced Git command-line interface with visualization",
+          "pricingModel": "Freemium",
+          "price": "From $14.99/month",
+          "features": ["Visual branch management", "Interactive rebase", "Conflict resolution"],
+          "popular": true
+        }
+      ]
+    }
+  ],
+  "pricingModels": [
+    {
+      "name": "Free",
+      "description": "Essential tools with no cost",
+      "benefits": ["No payment required", "Basic functionality", "Community support"]
+    },
+    {
+      "name": "Freemium",
+      "description": "Free core features with premium upgrades",
+      "benefits": ["Free basic features", "Optional premium features", "Pay only for what you need"]
+    },
+    {
+      "name": "Subscription",
+      "description": "Regular payments for continuous access",
+      "benefits": ["Regular updates", "Full feature access", "Priority support", "Lower upfront cost"]
+    },
+    {
+      "name": "One-time",
+      "description": "Single payment for perpetual access",
+      "benefits": ["One-time payment", "Perpetual license", "No recurring fees"]
+    }
+  ],
+  "localization": {
+    "supportedLanguages": [
+      {
+        "code": "en",
+        "name": "English",
+        "default": true
+      },
+      {
+        "code": "bn",
+        "name": "Bengali",
+        "default": false
+      },
+      {
+        "code": "ar",
+        "name": "Arabic",
+        "default": false
+      }
+    ],
+    "rtlSupport": true
+  },
+  "technicalDetails": {
+    "framework": "Next.js",
+    "uiLibrary": "shadcn/ui",
+    "styling": "Tailwind CSS",
+    "icons": "Lucide React",
+    "deployment": "Vercel",
+    "responsive": true,
+    "accessibility": {
+      "semanticHTML": true,
+      "ariaAttributes": true,
+      "screenReaderSupport": true,
+      "keyboardNavigation": true
+    }
+  },
+  "marketingMaterials": {
+    "socialMedia": ["Facebook posts", "Twitter/X announcements", "LinkedIn articles"],
+    "emailTemplates": [
+      "Institutional leader outreach",
+      "Educational institution promotion",
+      "Business partnership proposals"
+    ],
+    "presentationMaterials": [
+      "English presentation script",
+      "Bengali presentation script",
+      "Product demonstration videos"
+    ],
+    "marketplaceListings": ["Facebook Marketplace", "Product Hunt", "Software directories"]
+  },
+  "customerSupport": {
+    "channels": ["Facebook Messenger", "WhatsApp", "Email support", "Knowledge base"],
+    "preConfiguredResponses": {
+      "languages": ["English", "Bengali"],
+      "categories": ["Product information", "Pricing questions", "Technical support", "Account issues"]
+    }
+  }
+}
