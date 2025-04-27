@@ -1,0 +1,29 @@
+🚀 Excited to announce the launch of our open-source project: T_ally_cli (AllyGo)! 
+
+📚 Are you a developer struggling to remember CLI commands across different environments? We've built the ultimate solution - a comprehensive command-line reference and learning platform that covers:
+
+✅ PowerShell
+✅ Command Prompt (CMD)
+✅ Git Bash
+✅ Node.js
+
+🔍 Key features:
+• Categorized commands (file operations, network, system, git, etc.)
+• Detailed examples and syntax highlighting
+• Advanced search functionality
+• Educational resources for beginners and experts
+• Multi-language support (English & Bengali)
+• Responsive design for all devices
+
+🌐 Whether you're a beginner learning the basics or an experienced developer looking for specific command references, T_ally_cli has you covered!
+
+💻 As an open-source project, we welcome contributions from the community. Check out our GitHub repository to learn more, star the project, or contribute:
+[GitHub Repository Link]
+
+🔗 Try it out: [Project Demo Link]
+
+Let's make command-line interfaces more accessible together! Share this with developers in your network who might find it useful.
+
+#OpenSource #DeveloperTools #CLI #CommandLine #PowerShell #Git #NodeJS #WebDevelopment #TechCommunity #Programming
+
+P.S. Special thanks to all the early contributors who helped make this project possible!
